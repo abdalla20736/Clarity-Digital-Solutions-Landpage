@@ -1,0 +1,2300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="preload"
+      href="./style/all.min.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="./style/bootstrap/bootstrap.min.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="./style/style.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="./style/media.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="./style/custom.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="./style/all.min.css" />
+      <link rel="stylesheet" href="./style/bootstrap/bootstrap.min.css" />
+      <link rel="stylesheet" href="./style/style.css" />
+      <link rel="stylesheet" href="./style/media.css" />
+      <link rel="stylesheet" href="./style/custom.css" />
+    </noscript>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Clarity - Digital Solutions Platform</title>
+  </head>
+  <body
+    data-bs-target="#navbarSupportedContent"
+    data-bs-offset="0"
+    tabindex="0"
+    data-bs-spy="scroll"
+  >
+    <header class="bg-white fixed-top border-bottom border-gray-100">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark py-lg-3 px-lg-4 px-3 py-1"
+      >
+        <div class="container-fluid container-lg p-2 p-lg-0">
+          <div class="d-flex gap-2 align-items-center">
+            <div
+              class="icon-40 rounded-3 d-flex align-items-center justify-content-center bg-gradient-r-from-primary-to-secondary"
+            >
+              <i class="fa-solid fa-cube text-white fs-18px"></i>
+            </div>
+
+            <span
+              class="text-gradient bg-gradient-r-from-primary-to-secondary fs-4 lh-32px fw-bold"
+              >Clarity</span
+            >
+          </div>
+
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div
+            class="collapse navbar-collapse px-lg-0 ms-lg-4"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-lg-0 pt-2 py-lg-0 d-flex gap-4">
+              <li class="nav-item py-0 fs-14px mb-md-0 fs-lg-6 lh-lg-24px">
+                <a
+                  class="nav-link py-0 active fs-lg-6 lh-lg-16px py-lg-0 text-gray-700"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item fs-14px mb-md-0">
+                <a
+                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item fs-14px mb-md-0 fs-lg-6">
+                <a
+                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  href="#technologies"
+                  >Technology</a
+                >
+              </li>
+              <li class="nav-item fs-14px mb-md-0 fs-lg-6">
+                <a
+                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  href="#testimonials"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="nav-item fs-14px mb-md-0 fs-lg-6 lh-lg-16px">
+                <a
+                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  href="#faq"
+                  >FAQ</a
+                >
+              </li>
+              <li class="nav-item fs-14px mb-md-0 fs-lg-6 lh-lg-16px">
+                <a
+                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <div
+              class="d-flex gap-1 flex-column flex-lg-row py-2 pb-3 align-items-lg-center py-lg-0"
+            >
+              <button
+                class="nav-btn sign-in-btn btn btn-icon lh-24px px-1 transition-all text-gray-700 border-gray-200 rounded-pill"
+              >
+                Sign In
+              </button>
+              <button
+                class="nav-btn get-started-btn btn bg-gradient-r-from-primary-to-secondary text-white fw-bold lh-24px rounded-pill lh-24px ms-1 border-0"
+                type="submit"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="d-flex align-items-lg-center">
+        <div class="container">
+          <div
+            class="row home-inner gy-5 align-items-lg-center justify-content-center"
+          >
+            <div class="col-lg-6">
+              <div class="header-caption text-center text-lg-start">
+                <div
+                  class="badge home-section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
+                >
+                  <i class="fa-solid fa-rocket"></i>
+                  <span>Transforming Digital Experiences</span>
+                </div>
+                <h1
+                  class="fs-lg-60px fs-md-45px fs-sm-42px mb-lg-4 text-gradient"
+                >
+                  Digital Solutions
+
+                  <span class="text-primary fs-sm-42px fs-md-45px fs-lg-60px"
+                    >That Drive</span
+                  >
+                  <span class="text-gradient">Growth</span>
+                </h1>
+                <p
+                  class="fs-12px fs-lg-5 mb-lg-32px px-2 fs-sm-14px lh-lg-32px text-gray-700"
+                >
+                  We craft innovative digital experiences that transform
+                  businesses and accelerate growth. From cutting-edge web
+                  applications to mobile solutions, we deliver technology that
+                  makes a difference.
+                </p>
+                <div
+                  class="d-flex flex-column gap-2 flex-sm-row align-items-sm-center justify-content-sm-center justify-content-lg-start mb-32px"
+                >
+                  <button
+                    class="btn btn-hero bg-gradient-r-from-primary-to-secondary rounded-pill fs-12px lh-base fw-600 text-white fs-lg-18px"
+                  >
+                    Start Your Project
+                    <i class="fa-solid fa-arrow-right text-white"></i>
+                  </button>
+                  <button
+                    class="btn btn-hero btn-tournament rounded-pill border-primary border-2 text-gray-700 border-gray-300 bg-transparent fs-12px lh-base fw-600 fs-lg-18px"
+                  >
+                    <i class="fa-solid fa-play"></i>
+                    Watch Demo
+                  </button>
+                </div>
+                <div class="d-flex gap-4 pt-4">
+                  <div class="text-center">
+                    <p class="text-primary fs-30px lh-36px fw-bold m-0">500+</p>
+                    <p class="lh-base text-gray-700">Projects Delivered</p>
+                  </div>
+                  <div class="text-center">
+                    <p class="text-primary fs-30px lh-36px fw-bold m-0">98%</p>
+                    <p class="lh-base text-gray-700">Client Satisfaction</p>
+                  </div>
+                  <div class="text-center">
+                    <p class="text-primary fs-30px lh-36px fw-bold m-0">24/7</p>
+                    <p class="lh-base text-gray-700">Support</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 d-flex justify-content-end">
+              <div class="position-relative">
+                <div class="hero-img-shadow position-absolute rounded-4"></div>
+                <div
+                  class="hero-img d-flex align-items-center justify-content-center rounded-3 position-relative"
+                >
+                  <img
+                    class="rounded-4"
+                    src="./images/hero-img.png"
+                    alt="gaming station"
+                  />
+                </div>
+                <div
+                  class="img-badge position-absolute top-0 end-0 rounded-4 d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-solid fa-code fs-24px text-white"></i>
+                </div>
+                <div
+                  class="img-badge position-absolute bottom-0 start-0 rounded-4 d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-solid fa-mobile fs-24px text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="container">
+          <div class="section-header text-center">
+            <div
+              class="badge section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
+            >
+              <i class="fa-solid fa-gears"></i>
+              <span>Our Services</span>
+            </div>
+            <h2 class="fs-48px fw-900 lh-1 text-dark-100 mb-4">
+              Comprehensive
+              <span class="text-gradient"> Digital Solutions</span>
+            </h2>
+            <p class="fs-18px lh-base text-gray-700 mb-5">
+              From concept to deployment, we provide end-to-end digital services
+              that
+              <br />
+              transform your business and engage your customers.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="service col-lg-4 text-start">
+              <div class="service-card border-gray-100 border rounded-3">
+                <div
+                  class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
+                >
+                  <i class="fa-solid fa-code fs-24px text-white"></i>
+                </div>
+                <h3 class="mb-3">Web Development</h3>
+                <p class="text-gray-700 mb-4">
+                  Custom web applications built with cutting-edge technologies.
+                  Responsive, scalable, and optimized for performance.
+                </p>
+                <div class="mb-4">
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px"></i>
+                    React & Next.js Development
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    E-commerce Solutions
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Progressive Web Apps
+                  </p>
+                </div>
+                <span class="learn-more text-primary fs-14px lh-base fw-600"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></span>
+              </div>
+            </div>
+            <div class="service col-lg-4 text-start">
+              <div class="service-card border-gray-100 border rounded-3">
+                <div
+                  class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
+                >
+                  <i class="fa-solid fa-mobile fs-24px text-white"></i>
+                </div>
+                <h3 class="mb-3">Mobile Applications</h3>
+                <p class="text-gray-700 mb-4">
+                  Native and cross-platform mobile apps that deliver exceptional
+                  user experiences across all devices.
+                </p>
+                <div class="mb-4">
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px"></i>
+                    iOS & Android Development
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    React Native & Flutter
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    App Store Optimization
+                  </p>
+                </div>
+                <span class="learn-more text-primary fs-14px lh-base fw-600"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></span>
+              </div>
+            </div>
+            <div class="service col-lg-4 text-start">
+              <div class="service-card border-gray-100 border rounded-3">
+                <div
+                  class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
+                >
+                  <i class="fa-solid fa-cloud fs-24px text-white"></i>
+                </div>
+                <h3 class="mb-3">Cloud Solutions</h3>
+                <p class="text-gray-700 mb-4">
+                  Scalable cloud infrastructure and services that grow with your
+                  business needs and ensure maximum uptime.
+                </p>
+                <div class="mb-4">
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px"></i>
+                    AWS & Azure Integration
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    DevOps & CI/CD
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Microservices Architecture
+                  </p>
+                </div>
+                <span class="learn-more text-primary fs-14px lh-base fw-600"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></span>
+              </div>
+            </div>
+            <div class="service col-lg-4 text-start">
+              <div class="service-card border-gray-100 border rounded-3">
+                <div
+                  class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
+                >
+                  <i class="fa-solid fa-brain fs-24px text-white"></i>
+                </div>
+                <h3 class="mb-3">AI & Machine Learning</h3>
+                <p class="text-gray-700 mb-4">
+                  Intelligent solutions powered by artificial intelligence and
+                  machine learning to automate and optimize processes.
+                </p>
+                <div class="mb-4">
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px"></i>
+                    Predictive Analytics
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Natural Language Processing
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Computer Vision
+                  </p>
+                </div>
+                <span class="learn-more text-primary fs-14px lh-base fw-600"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></span>
+              </div>
+            </div>
+            <div class="service col-lg-4 text-start">
+              <div class="service-card border-gray-100 border rounded-3">
+                <div
+                  class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
+                >
+                  <i class="fa-solid fa-chart-line fs-24px text-white"></i>
+                </div>
+                <h3 class="mb-3">Digital Marketing</h3>
+                <p class="text-gray-700 mb-4">
+                  Data-driven marketing strategies that increase brand
+                  visibility and drive customer engagement across all channels.
+                </p>
+                <div class="mb-4">
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px"></i>
+                    SEO & SEM Optimization
+                  </p>
+                  <p class="m-0 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Social Media Management
+                  </p>
+                  <p class="mb-2 m-9 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Content Strategy
+                  </p>
+                </div>
+                <span class="learn-more text-primary fs-14px lh-base fw-600"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></span>
+              </div>
+            </div>
+            <div class="service col-lg-4 text-start">
+              <div class="service-card border-gray-100 border rounded-3">
+                <div
+                  class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
+                >
+                  <i class="fa-solid fa-palette fs-24px text-white"></i>
+                </div>
+                <h3 class="mb-3">UI/UX Design</h3>
+                <p class="text-gray-700 mb-4">
+                  User-centered design that creates intuitive, beautiful, and
+                  accessible digital experiences that users love.
+                </p>
+                <div class="mb-4">
+                  <p class="mb-2 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px"></i>
+                    User Research & Testing
+                  </p>
+                  <p class="mb-2 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Wireframing & Prototyping
+                  </p>
+                  <p class="mb-2 fs-14px text-gray-700">
+                    <i class="fa-solid fa-check text-primary fs-12px m-0"></i>
+                    Design Systems
+                  </p>
+                </div>
+                <span class="learn-more text-primary fs-14px lh-base fw-600"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="technologies">
+        <div class="container">
+          <div class="section-header text-center">
+            <div
+              class="badge section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span>Technology Stack </span>
+            </div>
+            <h2 class="fs-48px fw-900 lh-1 text-dark-100">
+              Cutting-Edge
+              <span class="text-gradient"> Technologies</span>
+            </h2>
+            <p class="fs-18px lh-base text-gray-700">
+              We leverage the latest technologies and frameworks to build
+              scalable,<br />
+              secure, and high-performance solutions.
+            </p>
+          </div>
+          <div
+            class="main mx-auto d-flex align-items-center flex-column justify-content-center"
+          >
+            <ul
+              class="nav nav-underline gap-0 d-flex align-items-center justify-content-center w-100"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active fw-600 fs-18px lh-28px text-gray-600"
+                  id="pills-frontend-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-frontend"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-frontend"
+                  aria-selected="true"
+                >
+                  <i class="fa-solid fa-code me-2"> </i>
+                  Frontend
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link fw-600 fs-18px lh-28px text-gray-600"
+                  id="pills-backend-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-backend"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-backend"
+                  aria-selected="false"
+                >
+                  <i class="fa-solid fa-server me-2"> </i>
+                  Backend
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link fw-600 fs-18px lh-28px text-gray-600"
+                  id="pills-mobile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-mobile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-mobile"
+                  aria-selected="false"
+                >
+                  <i class="fa-solid fa-mobile me-2"> </i>
+                  Mobile
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link fw-600 fs-18px lh-28px text-gray-600"
+                  id="pills-cloud-devops-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-cloud-devops"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-cloud-devops"
+                  aria-selected="false"
+                >
+                  <i class="fa-solid fa-cloud me-2"> </i>
+                  Cloud & DevOps
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link fw-600 fs-18px lh-28px text-gray-600"
+                  id="pills-database-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-database"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-database"
+                  aria-selected="false"
+                >
+                  <i class="fa-solid fa-database me-2"></i>
+                  Database
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade frontend-tab show active"
+                id="pills-frontend"
+                role="tabpanel"
+                aria-labelledby="pills-frontend-tab"
+              >
+                <div class="tab-header text-center mt-5">
+                  <h3 class="text-dark-100 fw-bold fs-4 lh-32px">
+                    Frontend Technologies
+                  </h3>
+                  <p class="fs-18px lh-28px text-gray-700 mb-5">
+                    Modern frameworks and libraries for creating exceptional
+                    user interfaces
+                  </p>
+                </div>
+                <div class="container">
+                  <div class="row g-3 justify-content-between">
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-blue-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-react fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          React.js
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Component-based library for building interactive user
+                          interfaces with virtual DOM
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">JSX</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Hooks</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Redux</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-black rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <span class="text-white fw-bold">Next </span>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Next.js
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Full-stack React framework with server-side rendering
+                          and static generation
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500">SSR</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500">SSG</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500"
+                                >API Routes</span
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-green-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-vuejs fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Vue.js
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Progressive framework for building user interfaces
+                          with excellent developer experience
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500"
+                                >Composition API
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500">Vuex</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500">Nuxt</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-orange-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-brands fa-angular fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Angular
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Comprehensive platform for building scalable web
+                          applications
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500"
+                                >TypeScript
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500">RxJS </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500">CLI</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-cyan-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-brands fa-css3-alt fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Tailwind CSS
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Utility-first CSS framework for rapid UI development
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500">JIT</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500"
+                                >Components</span
+                              >
+                            </div>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500"
+                                >Responsive</span
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-purple-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-solid fa-bolt fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Vite
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Next generation frontend tooling with lightning fast
+                          builds
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">HMR </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">ESM</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">Rollup</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade backend-tab"
+                id="pills-backend"
+                role="tabpanel"
+                aria-labelledby="pills-backend-tab"
+              >
+                <div class="tab-header text-center mt-5">
+                  <h3 class="text-dark-100 fw-bold fs-4 lh-32px">
+                    Backend Technologies
+                  </h3>
+                  <p class="fs-18px lh-28px text-gray-700 mb-5">
+                    Robust server-side technologies for scalable and secure
+                    applications
+                  </p>
+                </div>
+                <div class="container">
+                  <div class="row g-3 justify-content-between">
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-green-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-brands fa-node-js fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Node.js
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          JavaScript runtime built on Chrome's V8 engine for
+                          server-side development
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500"
+                                >Express.js
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500">NPM</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500"
+                                >TypeScript
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-blue-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-python fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Python
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Versatile programming language with powerful
+                          frameworks for web development
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Django</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">FastAPI</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Flask</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-red-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <span class="text-white fw-bold">Go</span>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Golang
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Fast, statically typed language designed for modern
+                          software development
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500">Gin </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500"
+                                >Goroutines
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500"
+                                >Microservices</span
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-purple-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-java fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Java
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Enterprise-grade platform with robust frameworks for
+                          large-scale applications
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500"
+                                >Spring Boot
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500"
+                                >Hibernate
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">Maven</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-cyan-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <span class="text-white fw-bold">.NET</span>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          .NET Core
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Cross-platform framework for building modern,
+                          cloud-based applications
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500">C# </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500"
+                                >Entity Framework
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500">Azure</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-teal-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-solid fa-gem fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Ruby
+                        </h4>
+                        <p class="text-teal-700 lh-24px mb-3">
+                          Dynamic language focused on simplicity and
+                          productivity
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-teal-100 rounded-pill"
+                            >
+                              <span class="text-teal-800 fw-500">Rails </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-teal-100 rounded-pill"
+                            >
+                              <span class="text-teal-800 fw-500">Sinatra</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-teal-100 rounded-pill"
+                            >
+                              <span class="text-teal-800 fw-500"
+                                >RubyGems
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade mobile-tab"
+                id="pills-mobile"
+                role="tabpanel"
+                aria-labelledby="pills-mobile-tab"
+              >
+                <div class="tab-header text-center mt-5">
+                  <h3 class="text-dark-100 fw-bold fs-4 lh-32px">
+                    Mobile Technologies
+                  </h3>
+                  <p class="fs-18px lh-28px text-gray-700 mb-5">
+                    Native and cross-platform solutions for iOS and Android
+                    development
+                  </p>
+                </div>
+                <div class="container">
+                  <div class="row g-3 justify-content-between">
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-blue-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-react fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          React Native
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Cross-platform mobile development using React and
+                          JavaScript
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Expo </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500"
+                                >Navigation
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Redux</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-cyan-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-cyan-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-solid fa-mobile fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Flutter
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Full-stack React framework with server-side rendering
+                          and static generation
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500">Dart</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500">Widgets</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-cyan-100 rounded-pill"
+                            >
+                              <span class="text-cyan-800 fw-500">Material</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-gray-700 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-apple fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          iOS Native
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Native iOS development using Swift and Xcode
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500">Swift </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500">SwiftUI</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500"
+                                >Core Data
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-green-600 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-brands fa-angular fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Android Native
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Native Android development using Kotlin and Android
+                          Studio
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500">Kotlin </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500"
+                                >Jetpack
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500">Room</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-purple-600 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-solid fa-code fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Xamarin
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Microsoft's cross-platform solution using C# and .NET
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">C# </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">Forms</span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">MVVM </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-orange-600 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-solid fa-globe fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          PWA
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Progressive Web Apps with native-like mobile
+                          experiences
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500"
+                                >Service Worker
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500"
+                                >Manifest</span
+                              >
+                            </div>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500"
+                                >Offline</span
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade cloud-devops-tab"
+                id="pills-cloud-devops"
+                role="tabpanel"
+                aria-labelledby="pills-cloud-devops-tab"
+              >
+                <div class="tab-header text-center mt-5">
+                  <h3 class="text-dark-100 fw-bold fs-4 lh-32px">
+                    Cloud & DevOps
+                  </h3>
+                  <p class="fs-18px lh-28px text-gray-700 mb-5">
+                    Modern cloud infrastructure and deployment technologies
+                  </p>
+                </div>
+                <div class="container">
+                  <div class="row g-3 justify-content-between">
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-orange-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-aws fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Amazon AWS
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Comprehensive cloud computing platform with extensive
+                          services
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500">EC2 </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500"
+                                >Lambda
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-orange-100 rounded-pill"
+                            >
+                              <span class="text-orange-800 fw-500">S3</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-blue-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-blue-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-brands fa-microsoft fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Microsoft Azure
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Enterprise cloud platform with integrated development
+                          tools
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500"
+                                >App Service
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500"
+                                >Functions
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">DevOps</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-red-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-google fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Google Cloud
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Google's cloud computing platform with AI and ML
+                          capabilities
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500"
+                                >Compute Engine
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500"
+                                >Cloud Run
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500">BigQuery </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-blue-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-brands fa-docker fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Docker
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Containerization platform for consistent application
+                          deployment
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500"
+                                >Containers
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Images </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">Compose </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-purple-600 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <span class="text-white fw-bold">K8s</span>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Kubernetes
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Container orchestration system for automating
+                          deployment and scaling
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">Pods </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500"
+                                >Services</span
+                              >
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500">Helm </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-gray-700 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-solid fa-jenkins fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          CI/CD Pipeline
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Automated build, test, and deployment workflows
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500">Jenkins </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500"
+                                >GitHub Actions
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-gray-100 rounded-pill"
+                            >
+                              <span class="text-gray-800 fw-500"
+                                >GitLab CI
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade database-tab"
+                id="pills-database"
+                role="tabpanel"
+                aria-labelledby="pills-database-tab"
+              >
+                <div class="tab-header text-center mt-5">
+                  <h3 class="text-dark-100 fw-bold fs-4 lh-32px">
+                    Database Technologies
+                  </h3>
+                  <p class="fs-18px lh-28px text-gray-700 mb-5">
+                    Robust data storage solutions for modern applications
+                  </p>
+                </div>
+                <div class="container">
+                  <div class="row g-3 justify-content-between">
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-blue-700 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-solid fa-database fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          PostgreSQL
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Advanced open-source relational database with JSON
+                          support
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">ACID </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500">JSON </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-blue-100 rounded-pill"
+                            >
+                              <span class="text-blue-800 fw-500"
+                                >Extensions</span
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-blue-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-green-700 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <span class="fw-bold text-white">Mongo</span>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          MongoDB
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Flexible NoSQL document database for modern
+                          applications
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500"
+                                >Documents
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500"
+                                >Aggregation
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-green-100 rounded-pill"
+                            >
+                              <span class="text-green-800 fw-500"
+                                >Sharding</span
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-red-700 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i class="fa-solid fa-fire fs-24px text-white"></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Redis
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          In-memory data structure store for caching and
+                          real-time applications
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500">Cache </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500">Pub/Sub </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-red-100 rounded-pill"
+                            >
+                              <span class="text-red-800 fw-500">Streams </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-yellow-600 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-solid fa-database fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          MySQL
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Popular open-source relational database management
+                          system
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-yellow-100 rounded-pill"
+                            >
+                              <span class="text-yellow-800 fw-500"
+                                >InnoDB
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-yellow-100 rounded-pill"
+                            >
+                              <span class="text-yellow-800 fw-500"
+                                >Replication
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-yellow-100 rounded-pill"
+                            >
+                              <span class="text-yellow-800 fw-500"
+                                >Clustering
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-purple-600 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-solid fa-chart-line fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          Elasticsearch
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Distributed search and analytics engine for complex
+                          queries
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500"
+                                >Search
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500"
+                                >Analytics
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-purple-100 rounded-pill"
+                            >
+                              <span class="text-purple-800 fw-500"
+                                >Kibana
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                      <div
+                        class="technology-card border-gray-100 border rounded-4"
+                      >
+                        <div
+                          class="card-icon bg-indigo-600 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                        >
+                          <i
+                            class="fa-solid fa-diagram-project fs-24px text-white"
+                          ></i>
+                        </div>
+                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                          GraphQL
+                        </h4>
+                        <p class="text-gray-700 lh-24px mb-3">
+                          Query language and runtime for APIs with flexible data
+                          fetching
+                        </p>
+                        <ul class="d-flex gap-2">
+                          <li>
+                            <div
+                              class="badge technology-badge bg-indigo-100 rounded-pill"
+                            >
+                              <span class="text-indigo-800 fw-500"
+                                >Schema
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-indigo-100 rounded-pill"
+                            >
+                              <span class="text-indigo-800 fw-500"
+                                >Resolvers
+                              </span>
+                            </div>
+                            <div
+                              class="badge technology-badge bg-indigo-100 rounded-pill"
+                            >
+                              <span class="text-indigo-800 fw-500"
+                                >Apollo
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials">
+        <div class="container">
+          <div class="section-header text-center">
+            <div
+              class="badge section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
+            >
+              <i class="fa-solid fa-heart"></i>
+              <span>Client Testimonials </span>
+            </div>
+            <h2 class="fs-48px fw-900 lh-1 text-dark-100 mb-4">
+              What Our
+              <span class="text-gradient"> Clients Say</span>
+            </h2>
+            <p class="fs-18px lh-base text-gray-700 mb-5">
+              Don't just take our word for it. Here's what our clients have to
+              say about working with us.
+            </p>
+          </div>
+
+          <div class="main">
+            <div
+              id="reviews-slider"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner rounded-4">
+                <div class="carousel-item active">
+                  <div class="slide-card bg-white rounded-4">
+                    <div
+                      class="d-flex justify-content-between align-items-lg-center mb-4 flex-column flex-md-row gap-2 gap-md-0"
+                    >
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="review-icon text-primary icon-56 rounded-4 d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left fs-4"></i>
+                        </div>
+                        <div>
+                          <div class="stars">
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                          </div>
+                          <p class="fs-12px m-0 mt-1 text-gray-700">
+                            5.0 Rating
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="badge verified-badge text-primary">
+                          <i class="fa-solid fa-circle-check"></i>
+                          <span class="fs-14px">Verified</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="fs-18px lh-28px fs-lg-5 lh-lg-32px text-gray-700 mb-4"
+                    >
+                      "Clarity transformed our entire digital presence. Their
+                      team's expertise and dedication resulted in a 300%
+                      increase in our online sales. Absolutely phenomenal work!"
+                    </p>
+                    <div class="divider"></div>
+                    <div
+                      class="d-flex justify-content-center justify-content-md-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="d-flex align-items-center gap-3 flex-column flex-md-row"
+                        >
+                          <div class="position-relative">
+                            <div
+                              class="review-avatar rounded-circle overflow-hidden"
+                            >
+                              <img
+                                class="object-fit-cover"
+                                src="./images/avatar-1.jpg"
+                                alt="person-tell-about-us-1"
+                              />
+                            </div>
+                            <div
+                              class="verified-sign rounded-circle d-flex align-items-center justify-content-center position-absolute bottom-0 end-0 z-2"
+                            >
+                              <i
+                                class="fa-solid fa-check text-white fs-14px"
+                              ></i>
+                            </div>
+                          </div>
+
+                          <div>
+                            <span class="text-dark-100 fw-bold lh-24px fs-6"
+                              >Ahmed Al-Farsi
+                            </span>
+                            <p class="fs-14px lh-base text-gray-600 m-0">
+                              CEO, RetailMax
+                            </p>
+                            <div class="d-flex align-items-center mt-1">
+                              <i
+                                class="fa-brands fa-linkedin text-primary me-1"
+                              ></i>
+                              <span class="fs-12px text-gray-500"
+                                >Verified on LinkedIn</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-md-flex flex-column d-none">
+                        <span
+                          class="info-span text-primary fs-26px lh-32px fw-bold text-gradient"
+                          >300%
+                        </span>
+                        <p
+                          class="m-0 text-gray-600 fs-12px fs-lg-14px lh-18px fw-500 align-self-end"
+                        >
+                          Growth
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-indicators position-relative">
+                <button
+                  type="button"
+                  data-bs-target="#reviews-slider"
+                  data-bs-slide-to="0"
+                  class="rounded-circle active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#reviews-slider"
+                  data-bs-slide-to="1"
+                  class="rounded-circle"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#reviews-slider"
+                  data-bs-slide-to="2"
+                  class="rounded-circle"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#reviews-slider"
+                  data-bs-slide-to="3"
+                  class="rounded-circle"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#reviews-slider"
+                  data-bs-slide-to="4"
+                  class="rounded-circle"
+                  aria-label="Slide 5"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="container">
+          <div class="section-header text-center">
+            <div
+              class="badge section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
+            >
+              <i class="fa-solid fa-heart"></i>
+              <span>FAQ </span>
+            </div>
+            <h2 class="fs-48px fw-900 lh-1 text-dark-100 mb-4">
+              Frequently Asked
+              <span class="text-gradient"> Questions</span>
+            </h2>
+            <p class="fs-18px lh-base text-gray-700 mb-5">
+              Find answers to common questions about our services, process, and
+              how we <br />
+              can help transform your business.
+            </p>
+          </div>
+          <div
+            class="d-flex justify-content-between align-items-center gap-3 flex-column"
+          >
+            <div
+              id="text-oncollapse-1"
+              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
+            >
+              <button
+                id="btn-collapse-text"
+                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
+                onclick="CollapseText('text-oncollapse-1', '240px')"
+              >
+                <span class="text-dark-100 fw-600 fs-18px lh-28px">
+                  What services does Clarity offer?
+                </span>
+                <div
+                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
+                  ></i>
+                </div>
+              </button>
+
+              <p class="p-4 lh-24px m-0 text-gray-700">
+                We offer a comprehensive range of digital services including web
+                development, mobile applications, cloud solutions, AI & machine
+                learning, digital marketing, and UI/UX design. Our team
+                specializes in creating custom solutions tailored to your
+                specific business needs, from initial concept through to
+                deployment and ongoing support.
+              </p>
+            </div>
+            <div
+              id="text-oncollapse-2"
+              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
+            >
+              <button
+                id="btn-collapse-text"
+                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
+                onclick="CollapseText('text-oncollapse-2', '240px')"
+              >
+                <span class="text-dark-100 fw-600 fs-18px lh-28px">
+                  How long does typical project take?
+                </span>
+                <div
+                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
+                  ></i>
+                </div>
+              </button>
+
+              <p class="p-4 lh-24px m-0 text-gray-700">
+                Project timelines vary based on complexity and scope. A simple
+                website might take 4-6 weeks, while a complex web application or
+                mobile app could take 3-6 months. We provide detailed project
+                timelines during our initial consultation and keep you updated
+                throughout the development process with regular milestones and
+                deliverables.
+              </p>
+            </div>
+            <div
+              id="text-oncollapse-3"
+              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
+            >
+              <button
+                id="btn-collapse-text"
+                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
+                onclick="CollapseText('text-oncollapse-3', '340px')"
+              >
+                <span class="text-dark-100 fw-600 fs-18px lh-28px">
+                  What is your development process?
+                </span>
+                <div
+                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
+                  ></i>
+                </div>
+              </button>
+
+              <p class="p-4 lh-24px m-0 text-gray-700">
+                We follow an agile development methodology that includes:
+              </p>
+              <ul>
+                <li class="d-flex gap-2 align-items-center">
+                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
+                  <p class="m-0 lh-24px text-gray-700">
+                    <span class="fw-bold fs-6">Discovery & Planning: </span>
+                    Understanding your requirements and goals
+                  </p>
+                </li>
+                <li class="d-flex gap-2 align-items-center">
+                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
+                  <p class="m-0 lh-24px text-gray-700">
+                    <span class="fw-bold fs-6">Design: </span>
+                    Creating wireframes and visual designs
+                  </p>
+                </li>
+                <li class="d-flex gap-2 align-items-center">
+                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
+                  <p class="m-0 lh-24px text-gray-700">
+                    <span class="fw-bold fs-6">Development: </span>
+                    Building your solution with regular updates
+                  </p>
+                </li>
+                <li class="d-flex gap-2 align-items-center">
+                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
+                  <p class="m-0 lh-24px text-gray-700">
+                    <span class="fw-bold fs-6">Testing: </span>
+                    Rigorous QA and user testing
+                  </p>
+                </li>
+                <li class="d-flex gap-2 align-items-center">
+                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
+                  <p class="m-0 lh-24px text-gray-700">
+                    <span class="fw-bold fs-6">Deployment: </span>
+                    Launch and ongoing support
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div
+              id="text-oncollapse-4"
+              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
+            >
+              <button
+                id="btn-collapse-text"
+                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
+                onclick="CollapseText('text-oncollapse-4', '240px')"
+              >
+                <span class="text-dark-100 fw-600 fs-18px lh-28px">
+                  Do you provide ongoing support and maintenance?
+                </span>
+                <div
+                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
+                  ></i>
+                </div>
+              </button>
+
+              <p class="p-4 lh-24px m-0 text-gray-700">
+                Yes! We offer comprehensive support and maintenance packages to
+                ensure your solution continues to perform optimally. This
+                includes bug fixes, security updates, performance optimization,
+                feature enhancements, and technical support. We can customize a
+                maintenance plan that fits your specific needs and budget.
+              </p>
+            </div>
+            <div
+              id="text-oncollapse-5"
+              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
+            >
+              <button
+                id="btn-collapse-text"
+                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
+                onclick="CollapseText('text-oncollapse-5', '240px')"
+              >
+                <span class="text-dark-100 fw-600 fs-18px lh-28px">
+                  What technologies do you work with?
+                </span>
+                <div
+                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
+                  ></i>
+                </div>
+              </button>
+
+              <p class="p-4 lh-24px m-0 text-gray-700">
+                We work with cutting-edge technologies across the full stack.
+                For frontend, we use React, Vue.js, Angular, and Next.js. Our
+                backend expertise includes Node.js, Python, Golang, and Java.
+                We're proficient in cloud platforms like AWS, Azure, and Google
+                Cloud, and work with both SQL and NoSQL databases. We always
+                choose the best technology stack for your specific project
+                requirements.
+              </p>
+            </div>
+            <div
+              id="text-oncollapse-6"
+              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
+            >
+              <button
+                id="btn-collapse-text"
+                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
+                onclick="CollapseText('text-oncollapse-6', '240px')"
+              >
+                <span class="text-dark-100 fw-600 fs-18px lh-28px">
+                  How do you ensure project security and data privacy?
+                </span>
+                <div
+                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
+                  ></i>
+                </div>
+              </button>
+
+              <p class="p-4 lh-24px m-0 text-gray-700">
+                Security is our top priority. We implement industry-standard
+                security practices including encryption, secure authentication,
+                regular security audits, and compliance with data protection
+                regulations (GDPR, HIPAA, etc.). All our developers sign NDAs,
+                and we use secure development practices throughout the entire
+                project lifecycle. We also provide security documentation and
+                training for your team.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

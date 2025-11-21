@@ -1,0 +1,25 @@
+/* Small (sm) - 640px and up */
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    min-width: auto;
+    max-width: auto;
+  }
+  .technology-card {
+    padding: 32px;
+    transition: all 0.5s;
+    width: auto;
+  }
+}
+
+/* Medium (md) - 768px and up */
+@media screen and (min-width: 992px) {
+  .sign-in-btn {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
