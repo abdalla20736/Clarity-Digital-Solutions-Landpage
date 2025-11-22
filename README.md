@@ -1,4 +1,4 @@
-# Clarity — Modern Web Experience
+# Clarity - Digital Solutions Platform
 
 A modern, clean, and responsive web application focused on delivering a seamless user experience.  
 Live Demo → **https://clarity-seven-drab.vercel.app**
