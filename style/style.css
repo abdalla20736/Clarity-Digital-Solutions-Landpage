@@ -200,14 +200,13 @@ img {
 }
 .hero-img {
   background-color: #ffffff;
-  width: 100%;
-
-  padding: 28px;
+  height: 270px;
+  width: 270px;
 }
 
 .hero-img-container .img-badge {
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
 }
 
 .hero-img-container .img-badge-1 {
@@ -216,8 +215,8 @@ img {
     #fb923c,
     var(--default-main-color)
   );
-  width: 75px;
-  height: 75px;
+  width: 55px;
+  height: 55px;
   translate: 25px -20px;
 }
 
@@ -629,12 +628,14 @@ img {
     input[type="email"],
     select,
     textarea {
+      transition: all 0.2s;
       padding: 16px 20px;
     }
     input[type="text"]:focus,
     input[type="email"]:focus,
     select:focus,
     textarea:focus {
+      transform: translateY(-5px);
       border-color: var(--default-main-color);
       box-shadow: 0 0 0 3px #ea580c1a;
     }
