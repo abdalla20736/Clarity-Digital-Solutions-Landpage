@@ -452,9 +452,29 @@ img {
     .slide-card {
       border: 1px solid #f3f4f6;
       padding: 32px;
+      .gradient-overlay {
+        background-image: linear-gradient(
+          to right bottom,
+          oklab(0.646035 0.146401 0.127788 / 0.05) 0%,
+          rgba(0, 0, 0, 0) 50%,
+          oklab(0.55341 0.136273 0.108006 / 0.05) 100%
+        );
+
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover {
+        .gradient-overlay {
+          opacity: 1;
+        }
+        .review-icon {
+          transform: scale(1.1);
+        }
+      }
     }
     .review-icon {
       background-color: #fae8e0;
+      transition: all 0.3s ease-in-out;
     }
     .review-avatar {
       width: 80px;
