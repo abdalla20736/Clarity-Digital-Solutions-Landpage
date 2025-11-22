@@ -1,25 +1,94 @@
 /* Small (sm) - 640px and up */
 @media screen and (min-width: 576px) {
+  #technologies {
+    .nav {
+    }
+    #home h1 {
+      width: 30%;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .main {
-    min-width: auto;
-    max-width: auto;
+  .hero-img-container .img-badge-1 {
+    width: 96px;
+    height: 96px;
+  }
+
+  .hero-img-container .img-badge-2 {
+    height: 80px;
+    width: 80px;
   }
   .technology-card {
-    padding: 32px;
-    transition: all 0.5s;
-    width: auto;
+    padding: 28px;
+  }
+  #technologies {
+    .nav {
+    }
+    .nav-link {
+      padding: 14px 28px;
+    }
   }
 }
 
-/* Medium (md) - 768px and up */
 @media screen and (min-width: 992px) {
   .sign-in-btn {
     border: none;
   }
-}
+  .hero-img {
+    height: 336px;
+    width: 336px;
+    padding: 28px;
+  }
+  .dropdown-menu {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.25s ease;
+    overflow-x: visible;
+    overflow-y: initial;
+    max-height: initial;
+    width: 1060px !important;
+    border: 1px solid;
+  }
+  .dropdown-menu.show {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .navbar .dropdown-card {
+    width: 340px;
+  }
+  #home {
+    padding-block: 156px 64px;
+  }
 
+  .icon-35 {
+    width: 40px;
+    height: 40px;
+  }
+  #navbarSupportedContent .nav-underline {
+    position: relative;
+    font-weight: 500;
+    padding: 0;
+    &::after {
+      content: "";
+      background: linear-gradient(
+        to right,
+        var(--default-main-color),
+        var(--secondary-color)
+      );
+      width: 0;
+      height: 2px;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+    }
+  }
+}
 @media screen and (min-width: 1200px) {
+  .hero-img {
+    height: 480px;
+    width: 480px;
+    padding: 32px;
+  }
 }

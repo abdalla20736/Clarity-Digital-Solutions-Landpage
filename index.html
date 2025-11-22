@@ -58,14 +58,14 @@
   >
     <header class="bg-white fixed-top border-bottom border-gray-100">
       <nav
-        class="navbar navbar-expand-lg navbar-dark py-lg-3 px-lg-4 px-3 py-1"
+        class="navbar navbar-expand-lg navbar-dark py-lg-3 px-lg-4 px-4 py-1"
       >
         <div class="container-fluid container-lg p-2 p-lg-0">
           <div class="d-flex gap-2 align-items-center">
             <div
-              class="icon-40 rounded-3 d-flex align-items-center justify-content-center bg-gradient-r-from-primary-to-secondary"
+              class="logo-icon rounded-3 d-flex align-items-center justify-content-center bg-gradient-r-from-primary-to-secondary"
             >
-              <i class="fa-solid fa-cube text-white fs-18px"></i>
+              <i class="fa-solid fa-cube text-white fs-14px fs-md-18px"></i>
             </div>
 
             <span
@@ -75,7 +75,7 @@
           </div>
 
           <button
-            class="navbar-toggler shadow-none"
+            class="navbar-toggler text-black shadow-none"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -90,46 +90,289 @@
             class="collapse navbar-collapse px-lg-0 ms-lg-4"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav me-auto mb-lg-0 pt-2 py-lg-0 d-flex gap-4">
+            <ul class="navbar-nav me-auto mb-lg-0 d-flex gap-4 py-4">
               <li class="nav-item py-0 fs-14px mb-md-0 fs-lg-6 lh-lg-24px">
                 <a
-                  class="nav-link py-0 active fs-lg-6 lh-lg-16px py-lg-0 text-gray-700"
+                  class="nav-link nav-underline py-0 active fs-lg-6 lh-lg-16px py-lg-0 text-gray-700"
                   aria-current="page"
                   href="#home"
                   >Home</a
                 >
               </li>
               <li class="nav-item fs-14px mb-md-0">
-                <a
-                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
-                  href="#services"
-                  >Services</a
-                >
+                <div class="dropdown">
+                  <a
+                    class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700 d-flex align-items-center justify-content-between gap-2 fw-500"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    ><span>Services</span>
+                    <i
+                      class="dropdown-arrow fa-solid fa-chevron-down fs-12px"
+                    ></i
+                  ></a>
+
+                  <div class="dropdown-menu d-lg-block p-lg-4 border-gray-300">
+                    <div
+                      class="d-flex gap-3 flex-column flex-md-row flex-md-wrap flex-lg-nowrap"
+                    >
+                      <div>
+                        <p class="fs-14px fw-bold lh-base text-primary">
+                          DEVELOPMENT
+                        </p>
+                        <div class="d-flex flex-column gap-4 px-3">
+                          <div class="dropdown-slide-card">
+                            <a href="#" class="d-flex">
+                              <div class="d-flex align-items-center gap-2">
+                                <div
+                                  class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                >
+                                  <i
+                                    class="fa-solid fa-code text-primary fs-14px"
+                                  ></i>
+                                </div>
+                                <div>
+                                  <p
+                                    class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                  >
+                                    Web Development
+                                  </p>
+                                  <span class="text-gray-500 lh-base fs-14px"
+                                    >Custom web applications & websites</span
+                                  >
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="dropdown-slide-card">
+                            <a href="#" class="d-flex">
+                              <div class="d-flex align-items-center gap-2">
+                                <div
+                                  class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                >
+                                  <i
+                                    class="fa-solid fa-mobile text-primary fs-14px"
+                                  ></i>
+                                </div>
+                                <div>
+                                  <p
+                                    class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                  >
+                                    Mobile Apps
+                                  </p>
+                                  <span class="text-gray-500 lh-base fs-14px"
+                                    >IOS & Android native apps</span
+                                  >
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="dropdown-slide-card">
+                            <a href="#" class="d-flex">
+                              <div class="d-flex align-items-center gap-2">
+                                <div
+                                  class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                >
+                                  <i
+                                    class="fa-solid fa-palette text-primary fs-14px"
+                                  ></i>
+                                </div>
+                                <div>
+                                  <p
+                                    class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                  >
+                                    UI/UX Design
+                                  </p>
+                                  <span class="text-gray-500 lh-base fs-14px">
+                                    User-centered design solutions
+                                  </span>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <p
+                          class="fs-14px fw-bold lh-base text-primary text-uppercase"
+                        >
+                          Infrastructure & AI
+                        </p>
+                        <div class="d-flex flex-column gap-4 px-3">
+                          <div class="dropdown-slide-card">
+                            <a href="#" class="d-flex">
+                              <div class="d-flex align-items-center gap-2">
+                                <div
+                                  class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                >
+                                  <i
+                                    class="fa-solid fa-cloud text-primary fs-14px"
+                                  ></i>
+                                </div>
+                                <div>
+                                  <p
+                                    class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                  >
+                                    Cloud Solutions
+                                  </p>
+                                  <span class="text-gray-500 lh-base fs-14px"
+                                    >Scalable cloud infrastructure</span
+                                  >
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="dropdown-slide-card">
+                            <a href="#" class="d-flex">
+                              <div class="d-flex align-items-center gap-2">
+                                <div
+                                  class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                >
+                                  <i
+                                    class="fa-solid fa-brain text-primary fs-14px"
+                                  ></i>
+                                </div>
+                                <div>
+                                  <p
+                                    class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                  >
+                                    AI & Machine Learning
+                                  </p>
+                                  <span class="text-gray-500 lh-base fs-14px"
+                                    >Intelligent automation solutions</span
+                                  >
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="dropdown-slide-card">
+                            <a href="#" class="d-flex">
+                              <div class="d-flex align-items-center gap-2">
+                                <div
+                                  class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                >
+                                  <i
+                                    class="fa-solid fa-database text-primary fs-14px"
+                                  ></i>
+                                </div>
+                                <div>
+                                  <p
+                                    class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                  >
+                                    Data Solutions
+                                  </p>
+                                  <span class="text-gray-500 lh-base fs-14px">
+                                    Database & analytics platforms
+                                  </span>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="d-flex flex-lg-column gap-lg-3">
+                          <div class="w-md-100 w-lg-auto">
+                            <p
+                              class="fs-14px fw-bold lh-base text-primary text-uppercase"
+                            >
+                              Marketing
+                            </p>
+                            <div class="d-flex flex-column gap-4 px-3">
+                              <div class="dropdown-slide-card">
+                                <a href="#" class="d-flex">
+                                  <div class="d-flex align-items-center gap-2">
+                                    <div
+                                      class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                    >
+                                      <i
+                                        class="fa-solid fa-chart-line text-primary fs-14px"
+                                      ></i>
+                                    </div>
+                                    <div>
+                                      <p
+                                        class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                      >
+                                        Digital Marketing
+                                      </p>
+                                      <span
+                                        class="text-gray-500 lh-base fs-14px"
+                                        >SEO, SEM & social media</span
+                                      >
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="dropdown-slide-card">
+                                <a href="#" class="d-flex">
+                                  <div class="d-flex align-items-center gap-2">
+                                    <div
+                                      class="service-icon icon-35 d-flex align-items-center justify-content-center rounded-3"
+                                    >
+                                      <i
+                                        class="fa-solid fa-bullhorn text-primary fs-14px"
+                                      ></i>
+                                    </div>
+                                    <div>
+                                      <p
+                                        class="slide-header m-0 text-gray-900 lh-24px fw-bold"
+                                      >
+                                        Content Strategy
+                                      </p>
+                                      <span
+                                        class="text-gray-500 lh-base fs-14px"
+                                        >Engaging content creation</span
+                                      >
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="dropdown-card rounded-3 p-3">
+                            <p class="text-gray-900 fw-bold mb-2">
+                              Need help choosing?
+                            </p>
+                            <p class="mb-3 fs-14px">
+                              Talk to our experts to find the perfect solution
+                              for your business.
+                            </p>
+                            <a href="#" class="fs-14px fw-bold text-primary"
+                              >Contact us <i class="fa-solid fa-arrow-right"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li class="nav-item fs-14px mb-md-0 fs-lg-6">
                 <a
-                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  class="nav-link nav-underline py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
                   href="#technologies"
                   >Technology</a
                 >
               </li>
               <li class="nav-item fs-14px mb-md-0 fs-lg-6">
                 <a
-                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  class="nav-link nav-underline py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
                   href="#testimonials"
                   >Testimonials</a
                 >
               </li>
               <li class="nav-item fs-14px mb-md-0 fs-lg-6 lh-lg-16px">
                 <a
-                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  class="nav-link nav-underline py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
                   href="#faq"
                   >FAQ</a
                 >
               </li>
               <li class="nav-item fs-14px mb-md-0 fs-lg-6 lh-lg-16px">
                 <a
-                  class="nav-link py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
+                  class="nav-link nav-underline py-lg-0 fs-14px fs-lg-6 lh-base text-gray-700"
                   href="#contact"
                   >Contact</a
                 >
@@ -161,7 +404,7 @@
             class="row home-inner gy-5 align-items-lg-center justify-content-center"
           >
             <div class="col-lg-6">
-              <div class="header-caption text-center text-lg-start">
+              <div class="header-caption text-start">
                 <div
                   class="badge home-section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
                 >
@@ -169,13 +412,15 @@
                   <span>Transforming Digital Experiences</span>
                 </div>
                 <h1
-                  class="fs-lg-60px fs-md-45px fs-sm-42px mb-lg-4 text-gradient"
+                  class="fs-lg-60px fs-md-45px fs-sm-42px mb-lg-4 text-dark-100"
                 >
-                  Digital Solutions
+                  <span class="text-gradient"> Digital Solutions</span>
 
-                  <span class="text-primary fs-sm-42px fs-md-45px fs-lg-60px"
-                    >That Drive</span
-                  >
+                  <br />
+
+                  That Drive
+
+                  <br />
                   <span class="text-gradient">Growth</span>
                 </h1>
                 <p
@@ -196,7 +441,7 @@
                     <i class="fa-solid fa-arrow-right text-white"></i>
                   </button>
                   <button
-                    class="btn btn-hero btn-tournament rounded-pill border-primary border-2 text-gray-700 border-gray-300 bg-transparent fs-12px lh-base fw-600 fs-lg-18px"
+                    class="btn btn-hero btn-demo rounded-pill border-primary border-2 text-gray-700 border-gray-300 bg-transparent fs-12px lh-base fw-600 fs-lg-18px"
                   >
                     <i class="fa-solid fa-play"></i>
                     Watch Demo
@@ -219,8 +464,10 @@
               </div>
             </div>
 
-            <div class="col-lg-6 d-flex justify-content-end">
-              <div class="position-relative">
+            <div
+              class="col-lg-6 d-flex justify-content-center justify-content-lg-end"
+            >
+              <div class="hero-img-container position-relative">
                 <div class="hero-img-shadow position-absolute rounded-4"></div>
                 <div
                   class="hero-img d-flex align-items-center justify-content-center rounded-3 position-relative"
@@ -232,12 +479,12 @@
                   />
                 </div>
                 <div
-                  class="img-badge position-absolute top-0 end-0 rounded-4 d-flex align-items-center justify-content-center"
+                  class="img-badge img-badge-1 position-absolute top-0 end-0 rounded-4 d-flex align-items-center justify-content-center z-3"
                 >
                   <i class="fa-solid fa-code fs-24px text-white"></i>
                 </div>
                 <div
-                  class="img-badge position-absolute bottom-0 start-0 rounded-4 d-flex align-items-center justify-content-center"
+                  class="img-badge img-badge-2 position-absolute bottom-0 start-0 rounded-4 d-flex align-items-center justify-content-center"
                 >
                   <i class="fa-solid fa-mobile fs-24px text-white"></i>
                 </div>
@@ -261,13 +508,11 @@
             </h2>
             <p class="fs-18px lh-base text-gray-700 mb-5">
               From concept to deployment, we provide end-to-end digital services
-              that
-              <br />
-              transform your business and engage your customers.
+              that transform your business and engage your customers.
             </p>
           </div>
           <div class="row g-4">
-            <div class="service col-lg-4 text-start">
+            <div class="service col-md-6 col-lg-4 text-start">
               <div class="service-card border-gray-100 border rounded-3">
                 <div
                   class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
@@ -298,7 +543,7 @@
                 ></span>
               </div>
             </div>
-            <div class="service col-lg-4 text-start">
+            <div class="service col-md-6 col-lg-4 text-start">
               <div class="service-card border-gray-100 border rounded-3">
                 <div
                   class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
@@ -329,7 +574,7 @@
                 ></span>
               </div>
             </div>
-            <div class="service col-lg-4 text-start">
+            <div class="service col-md-6 col-lg-4 text-start">
               <div class="service-card border-gray-100 border rounded-3">
                 <div
                   class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
@@ -360,7 +605,7 @@
                 ></span>
               </div>
             </div>
-            <div class="service col-lg-4 text-start">
+            <div class="service col-md-6 col-lg-4 text-start">
               <div class="service-card border-gray-100 border rounded-3">
                 <div
                   class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
@@ -391,7 +636,7 @@
                 ></span>
               </div>
             </div>
-            <div class="service col-lg-4 text-start">
+            <div class="service col-md-6 col-lg-4 text-start">
               <div class="service-card border-gray-100 border rounded-3">
                 <div
                   class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
@@ -422,7 +667,7 @@
                 ></span>
               </div>
             </div>
-            <div class="service col-lg-4 text-start">
+            <div class="service col-md-6 col-lg-4 text-start">
               <div class="service-card border-gray-100 border rounded-3">
                 <div
                   class="card-icon rounded-4 d-flex align-items-center justify-content-center mb-4"
@@ -463,23 +708,20 @@
               class="badge section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
             >
               <i class="fa-solid fa-gear"></i>
-              <span>Technology Stack </span>
+              <span>Technology Stack</span>
             </div>
-            <h2 class="fs-48px fw-900 lh-1 text-dark-100">
+            <h2 class="fs-lg-48px fs-26px fw-900 lh-1 text-dark-100">
               Cutting-Edge
               <span class="text-gradient"> Technologies</span>
             </h2>
-            <p class="fs-18px lh-base text-gray-700">
+            <p class="fs-18px lh-base text-gray-700 mb-5">
               We leverage the latest technologies and frameworks to build
-              scalable,<br />
-              secure, and high-performance solutions.
+              scalable, secure, and high-performance solutions.
             </p>
           </div>
-          <div
-            class="main mx-auto d-flex align-items-center flex-column justify-content-center"
-          >
+          <div class="pt-5 pb-5">
             <ul
-              class="nav nav-underline gap-0 d-flex align-items-center justify-content-center w-100"
+              class="nav nav-underline gap-0 d-flex align-items-center justify-content-center"
               id="pills-tab"
               role="tablist"
             >
@@ -575,244 +817,233 @@
                     user interfaces
                   </p>
                 </div>
-                <div class="container">
-                  <div class="row g-3 justify-content-between">
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
-                      <div
-                        class="technology-card border-gray-100 border rounded-4"
-                      >
-                        <div
-                          class="card-icon bg-blue-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
-                        >
-                          <i class="fa-brands fa-react fs-24px text-white"></i>
-                        </div>
-                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
-                          React.js
-                        </h4>
-                        <p class="text-gray-700 lh-24px mb-3">
-                          Component-based library for building interactive user
-                          interfaces with virtual DOM
-                        </p>
-                        <ul class="d-flex gap-2">
-                          <li>
-                            <div
-                              class="badge technology-badge bg-blue-100 rounded-pill"
-                            >
-                              <span class="text-blue-800 fw-500">JSX</span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-blue-100 rounded-pill"
-                            >
-                              <span class="text-blue-800 fw-500">Hooks</span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-blue-100 rounded-pill"
-                            >
-                              <span class="text-blue-800 fw-500">Redux</span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                <div class="row g-3">
+                  <div class="technology col-md-6 col-lg-4">
+                    <div
+                      class="technology-card border-gray-100 border rounded-4"
+                    >
                       <div
-                        class="technology-card border-gray-100 border rounded-4"
+                        class="card-icon bg-blue-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
                       >
-                        <div
-                          class="card-icon bg-black rounded-4 d-flex align-items-center justify-content-center mb-4"
-                        >
-                          <span class="text-white fw-bold">Next </span>
-                        </div>
-                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
-                          Next.js
-                        </h4>
-                        <p class="text-gray-700 lh-24px mb-3">
-                          Full-stack React framework with server-side rendering
-                          and static generation
-                        </p>
-                        <ul class="d-flex gap-2">
-                          <li>
-                            <div
-                              class="badge technology-badge bg-gray-100 rounded-pill"
-                            >
-                              <span class="text-gray-800 fw-500">SSR</span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-gray-100 rounded-pill"
-                            >
-                              <span class="text-gray-800 fw-500">SSG</span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-gray-100 rounded-pill"
-                            >
-                              <span class="text-gray-800 fw-500"
-                                >API Routes</span
-                              >
-                            </div>
-                          </li>
-                        </ul>
+                        <i class="fa-brands fa-react fs-24px text-white"></i>
                       </div>
+                      <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                        React.js
+                      </h4>
+                      <p class="text-gray-700 lh-24px mb-3">
+                        Component-based library for building interactive user
+                        interfaces with virtual DOM
+                      </p>
+                      <ul class="d-flex gap-2">
+                        <li>
+                          <div
+                            class="badge technology-badge bg-blue-100 rounded-pill"
+                          >
+                            <span class="text-blue-800 fw-500">JSX</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-blue-100 rounded-pill"
+                          >
+                            <span class="text-blue-800 fw-500">Hooks</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-blue-100 rounded-pill"
+                          >
+                            <span class="text-blue-800 fw-500">Redux</span>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
-                      <div
-                        class="technology-card border-gray-100 border rounded-4"
-                      >
-                        <div
-                          class="card-icon bg-green-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
-                        >
-                          <i class="fa-brands fa-vuejs fs-24px text-white"></i>
-                        </div>
-                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
-                          Vue.js
-                        </h4>
-                        <p class="text-gray-700 lh-24px mb-3">
-                          Progressive framework for building user interfaces
-                          with excellent developer experience
-                        </p>
-                        <ul class="d-flex gap-2">
-                          <li>
-                            <div
-                              class="badge technology-badge bg-green-100 rounded-pill"
-                            >
-                              <span class="text-green-800 fw-500"
-                                >Composition API
-                              </span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-green-100 rounded-pill"
-                            >
-                              <span class="text-green-800 fw-500">Vuex</span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-green-100 rounded-pill"
-                            >
-                              <span class="text-green-800 fw-500">Nuxt</span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
-                      <div
-                        class="technology-card border-gray-100 border rounded-4"
-                      >
-                        <div
-                          class="card-icon bg-orange-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
-                        >
-                          <i
-                            class="fa-brands fa-angular fs-24px text-white"
-                          ></i>
-                        </div>
-                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
-                          Angular
-                        </h4>
-                        <p class="text-gray-700 lh-24px mb-3">
-                          Comprehensive platform for building scalable web
-                          applications
-                        </p>
-                        <ul class="d-flex gap-2">
-                          <li>
-                            <div
-                              class="badge technology-badge bg-orange-100 rounded-pill"
-                            >
-                              <span class="text-orange-800 fw-500"
-                                >TypeScript
-                              </span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-orange-100 rounded-pill"
-                            >
-                              <span class="text-orange-800 fw-500">RxJS </span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-orange-100 rounded-pill"
-                            >
-                              <span class="text-orange-800 fw-500">CLI</span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                  </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                  <div class="technology col-md-6 col-lg-4">
+                    <div
+                      class="technology-card border-gray-100 border rounded-4"
+                    >
                       <div
-                        class="technology-card border-gray-100 border rounded-4"
+                        class="card-icon bg-black rounded-4 d-flex align-items-center justify-content-center mb-4"
                       >
-                        <div
-                          class="card-icon bg-cyan-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
-                        >
-                          <i
-                            class="fa-brands fa-css3-alt fs-24px text-white"
-                          ></i>
-                        </div>
-                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
-                          Tailwind CSS
-                        </h4>
-                        <p class="text-gray-700 lh-24px mb-3">
-                          Utility-first CSS framework for rapid UI development
-                        </p>
-                        <ul class="d-flex gap-2">
-                          <li>
-                            <div
-                              class="badge technology-badge bg-cyan-100 rounded-pill"
-                            >
-                              <span class="text-cyan-800 fw-500">JIT</span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-cyan-100 rounded-pill"
-                            >
-                              <span class="text-cyan-800 fw-500"
-                                >Components</span
-                              >
-                            </div>
-                            <div
-                              class="badge technology-badge bg-cyan-100 rounded-pill"
-                            >
-                              <span class="text-cyan-800 fw-500"
-                                >Responsive</span
-                              >
-                            </div>
-                          </li>
-                        </ul>
+                        <span class="text-white fw-bold">Next </span>
                       </div>
+                      <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                        Next.js
+                      </h4>
+                      <p class="text-gray-700 lh-24px mb-3">
+                        Full-stack React framework with server-side rendering
+                        and static generation
+                      </p>
+                      <ul class="d-flex gap-2">
+                        <li>
+                          <div
+                            class="badge technology-badge bg-gray-100 rounded-pill"
+                          >
+                            <span class="text-gray-800 fw-500">SSR</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-gray-100 rounded-pill"
+                          >
+                            <span class="text-gray-800 fw-500">SSG</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-gray-100 rounded-pill"
+                          >
+                            <span class="text-gray-800 fw-500">API Routes</span>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                  </div>
+                  <div class="technology col-md-6 col-lg-4">
+                    <div
+                      class="technology-card border-gray-100 border rounded-4"
+                    >
                       <div
-                        class="technology-card border-gray-100 border rounded-4"
+                        class="card-icon bg-green-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
                       >
-                        <div
-                          class="card-icon bg-purple-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
-                        >
-                          <i class="fa-solid fa-bolt fs-24px text-white"></i>
-                        </div>
-                        <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
-                          Vite
-                        </h4>
-                        <p class="text-gray-700 lh-24px mb-3">
-                          Next generation frontend tooling with lightning fast
-                          builds
-                        </p>
-                        <ul class="d-flex gap-2">
-                          <li>
-                            <div
-                              class="badge technology-badge bg-purple-100 rounded-pill"
-                            >
-                              <span class="text-purple-800 fw-500">HMR </span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-purple-100 rounded-pill"
-                            >
-                              <span class="text-purple-800 fw-500">ESM</span>
-                            </div>
-                            <div
-                              class="badge technology-badge bg-purple-100 rounded-pill"
-                            >
-                              <span class="text-purple-800 fw-500">Rollup</span>
-                            </div>
-                          </li>
-                        </ul>
+                        <i class="fa-brands fa-vuejs fs-24px text-white"></i>
                       </div>
+                      <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                        Vue.js
+                      </h4>
+                      <p class="text-gray-700 lh-24px mb-3">
+                        Progressive framework for building user interfaces with
+                        excellent developer experience
+                      </p>
+                      <ul class="d-flex gap-2">
+                        <li>
+                          <div
+                            class="badge technology-badge bg-green-100 rounded-pill"
+                          >
+                            <span class="text-green-800 fw-500"
+                              >Composition API
+                            </span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-green-100 rounded-pill"
+                          >
+                            <span class="text-green-800 fw-500">Vuex</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-green-100 rounded-pill"
+                          >
+                            <span class="text-green-800 fw-500">Nuxt</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="technology col-md-6 col-lg-4">
+                    <div
+                      class="technology-card border-gray-100 border rounded-4"
+                    >
+                      <div
+                        class="card-icon bg-orange-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                      >
+                        <i class="fa-brands fa-angular fs-24px text-white"></i>
+                      </div>
+                      <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                        Angular
+                      </h4>
+                      <p class="text-gray-700 lh-24px mb-3">
+                        Comprehensive platform for building scalable web
+                        applications
+                      </p>
+                      <ul class="d-flex gap-2">
+                        <li>
+                          <div
+                            class="badge technology-badge bg-orange-100 rounded-pill"
+                          >
+                            <span class="text-orange-800 fw-500"
+                              >TypeScript
+                            </span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-orange-100 rounded-pill"
+                          >
+                            <span class="text-orange-800 fw-500">RxJS </span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-orange-100 rounded-pill"
+                          >
+                            <span class="text-orange-800 fw-500">CLI</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="technology col-md-6 col-lg-4">
+                    <div
+                      class="technology-card border-gray-100 border rounded-4"
+                    >
+                      <div
+                        class="card-icon bg-cyan-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                      >
+                        <i class="fa-brands fa-css3-alt fs-24px text-white"></i>
+                      </div>
+                      <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                        Tailwind CSS
+                      </h4>
+                      <p class="text-gray-700 lh-24px mb-3">
+                        Utility-first CSS framework for rapid UI development
+                      </p>
+                      <ul class="d-flex gap-2">
+                        <li>
+                          <div
+                            class="badge technology-badge bg-cyan-100 rounded-pill"
+                          >
+                            <span class="text-cyan-800 fw-500">JIT</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-cyan-100 rounded-pill"
+                          >
+                            <span class="text-cyan-800 fw-500">Components</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-cyan-100 rounded-pill"
+                          >
+                            <span class="text-cyan-800 fw-500">Responsive</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="technology col-md-6 col-lg-4">
+                    <div
+                      class="technology-card border-gray-100 border rounded-4"
+                    >
+                      <div
+                        class="card-icon bg-purple-500 rounded-4 d-flex align-items-center justify-content-center mb-4"
+                      >
+                        <i class="fa-solid fa-bolt fs-24px text-white"></i>
+                      </div>
+                      <h4 class="mb-2 text-dark-100 fw-bold fs-5 lh-28px">
+                        Vite
+                      </h4>
+                      <p class="text-gray-700 lh-24px mb-3">
+                        Next generation frontend tooling with lightning fast
+                        builds
+                      </p>
+                      <ul class="d-flex gap-2">
+                        <li>
+                          <div
+                            class="badge technology-badge bg-purple-100 rounded-pill"
+                          >
+                            <span class="text-purple-800 fw-500">HMR </span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-purple-100 rounded-pill"
+                          >
+                            <span class="text-purple-800 fw-500">ESM</span>
+                          </div>
+                          <div
+                            class="badge technology-badge bg-purple-100 rounded-pill"
+                          >
+                            <span class="text-purple-800 fw-500">Rollup</span>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -834,7 +1065,7 @@
                 </div>
                 <div class="container">
                   <div class="row g-3 justify-content-between">
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -878,7 +1109,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -915,7 +1146,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -956,7 +1187,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -998,7 +1229,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1037,7 +1268,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1096,7 +1327,7 @@
                 </div>
                 <div class="container">
                   <div class="row g-3 justify-content-between">
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1136,7 +1367,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-cyan-100 border rounded-4"
                       >
@@ -1173,7 +1404,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1211,7 +1442,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1253,7 +1484,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1289,7 +1520,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1351,7 +1582,7 @@
                 </div>
                 <div class="container">
                   <div class="row g-3 justify-content-between">
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1391,7 +1622,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-blue-100 border rounded-4"
                       >
@@ -1434,7 +1665,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1475,7 +1706,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1515,7 +1746,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1554,7 +1785,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1613,7 +1844,7 @@
                 </div>
                 <div class="container">
                   <div class="row g-3 justify-content-between">
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1655,7 +1886,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-blue-100 border rounded-4"
                       >
@@ -1698,7 +1929,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1735,7 +1966,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1781,7 +2012,7 @@
                       </div>
                     </div>
 
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1826,7 +2057,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="technology col-md-6 col-lg-4 text-start p-0">
+                    <div class="technology col-md-6 col-lg-4">
                       <div
                         class="technology-card border-gray-100 border rounded-4"
                       >
@@ -1887,7 +2118,7 @@
               <i class="fa-solid fa-heart"></i>
               <span>Client Testimonials </span>
             </div>
-            <h2 class="fs-48px fw-900 lh-1 text-dark-100 mb-4">
+            <h2 class="fs-lg-48px fs-26px fw-900 lh-1 text-dark-100 mb-4">
               What Our
               <span class="text-gradient"> Clients Say</span>
             </h2>
@@ -2011,6 +2242,435 @@
                     </div>
                   </div>
                 </div>
+                <div class="carousel-item">
+                  <div class="slide-card bg-white rounded-4">
+                    <div
+                      class="d-flex justify-content-between align-items-lg-center mb-4 flex-column flex-md-row gap-2 gap-md-0"
+                    >
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="review-icon text-primary icon-56 rounded-4 d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left fs-4"></i>
+                        </div>
+                        <div>
+                          <div class="stars">
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                          </div>
+                          <p class="fs-12px m-0 mt-1 text-gray-700">
+                            5.0 Rating
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="badge verified-badge text-primary">
+                          <i class="fa-solid fa-circle-check"></i>
+                          <span class="fs-14px">Verified</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="fs-18px lh-28px fs-lg-5 lh-lg-32px text-gray-700 mb-4"
+                    >
+                      "The telemedicine platform they built for us has
+                      revolutionized how we serve our patients. The security,
+                      reliability, and user experience are all top-notch."
+                    </p>
+                    <div class="divider"></div>
+                    <div
+                      class="d-flex justify-content-center justify-content-md-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="d-flex align-items-center gap-3 flex-column flex-md-row"
+                        >
+                          <div class="position-relative">
+                            <div
+                              class="review-avatar rounded-circle overflow-hidden"
+                            >
+                              <img
+                                class="object-fit-cover"
+                                src="./images/avatar-2.jpg"
+                                alt="person-tell-about-us-1"
+                              />
+                            </div>
+                            <div
+                              class="verified-sign rounded-circle d-flex align-items-center justify-content-center position-absolute bottom-0 end-0 z-2"
+                            >
+                              <i
+                                class="fa-solid fa-check text-white fs-14px"
+                              ></i>
+                            </div>
+                          </div>
+
+                          <div>
+                            <span class="text-dark-100 fw-bold lh-24px fs-6"
+                              >Dr. Michael Chen
+                            </span>
+                            <p class="fs-14px lh-base text-gray-600 m-0">
+                              Director, MedCare
+                            </p>
+                            <div class="d-flex align-items-center mt-1">
+                              <i
+                                class="fa-brands fa-linkedin text-primary me-1"
+                              ></i>
+                              <span class="fs-12px text-gray-500"
+                                >Verified on LinkedIn</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-md-flex flex-column d-none">
+                        <span
+                          class="info-span text-primary fs-26px lh-32px fw-bold text-gradient"
+                          >100K+
+                        </span>
+                        <p
+                          class="m-0 text-gray-600 fs-12px fs-lg-14px lh-18px fw-500 align-self-end"
+                        >
+                          Patients
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-card bg-white rounded-4">
+                    <div
+                      class="d-flex justify-content-between align-items-lg-center mb-4 flex-column flex-md-row gap-2 gap-md-0"
+                    >
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="review-icon text-primary icon-56 rounded-4 d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left fs-4"></i>
+                        </div>
+                        <div>
+                          <div class="stars">
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                          </div>
+                          <p class="fs-12px m-0 mt-1 text-gray-700">
+                            5.0 Rating
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="badge verified-badge text-primary">
+                          <i class="fa-solid fa-circle-check"></i>
+                          <span class="fs-14px">Verified</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="fs-18px lh-28px fs-lg-5 lh-lg-32px text-gray-700 mb-4"
+                    >
+                      "Working with Clarity was a game-changer. Their mobile
+                      banking app exceeded all our expectations and has
+                      processed over $1 billion in transactions."
+                    </p>
+                    <div class="divider"></div>
+                    <div
+                      class="d-flex justify-content-center justify-content-md-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="d-flex align-items-center gap-3 flex-column flex-md-row"
+                        >
+                          <div class="position-relative">
+                            <div
+                              class="review-avatar rounded-circle overflow-hidden"
+                            >
+                              <img
+                                class="object-fit-cover"
+                                src="./images/avatar-3.jpg"
+                                alt="person-tell-about-us-3"
+                              />
+                            </div>
+                            <div
+                              class="verified-sign rounded-circle d-flex align-items-center justify-content-center position-absolute bottom-0 end-0 z-2"
+                            >
+                              <i
+                                class="fa-solid fa-check text-white fs-14px"
+                              ></i>
+                            </div>
+                          </div>
+
+                          <div>
+                            <span class="text-dark-100 fw-bold lh-24px fs-6"
+                              >Eslam Salah
+                            </span>
+                            <p class="fs-14px lh-base text-gray-600 m-0">
+                              CTO, FinanceFlow
+                            </p>
+                            <div class="d-flex align-items-center mt-1">
+                              <i
+                                class="fa-brands fa-linkedin text-primary me-1"
+                              ></i>
+                              <span class="fs-12px text-gray-500"
+                                >Verified on LinkedIn</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-md-flex flex-column d-none">
+                        <span
+                          class="info-span text-primary fs-26px lh-32px fw-bold text-gradient"
+                          >$1B+
+                        </span>
+                        <p
+                          class="m-0 text-gray-600 fs-12px fs-lg-14px lh-18px fw-500 align-self-end"
+                        >
+                          Processed
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-card bg-white rounded-4">
+                    <div
+                      class="d-flex justify-content-between align-items-lg-center mb-4 flex-column flex-md-row gap-2 gap-md-0"
+                    >
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="review-icon text-primary icon-56 rounded-4 d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left fs-4"></i>
+                        </div>
+                        <div>
+                          <div class="stars">
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                          </div>
+                          <p class="fs-12px m-0 mt-1 text-gray-700">
+                            5.0 Rating
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="badge verified-badge text-primary">
+                          <i class="fa-solid fa-circle-check"></i>
+                          <span class="fs-14px">Verified</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="fs-18px lh-28px fs-lg-5 lh-lg-32px text-gray-700 mb-4"
+                    >
+                      "The AI-powered analytics dashboard they created has given
+                      us insights we never had before. Our decision-making
+                      process has become so much more data-driven and
+                      effective."
+                    </p>
+                    <div class="divider"></div>
+                    <div
+                      class="d-flex justify-content-center justify-content-md-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="d-flex align-items-center gap-3 flex-column flex-md-row"
+                        >
+                          <div class="position-relative">
+                            <div
+                              class="review-avatar rounded-circle overflow-hidden"
+                            >
+                              <img
+                                class="object-fit-cover"
+                                src="./images/avatar-4.jpg"
+                                alt="person-tell-about-us-1"
+                              />
+                            </div>
+                            <div
+                              class="verified-sign rounded-circle d-flex align-items-center justify-content-center position-absolute bottom-0 end-0 z-2"
+                            >
+                              <i
+                                class="fa-solid fa-check text-white fs-14px"
+                              ></i>
+                            </div>
+                          </div>
+
+                          <div>
+                            <span class="text-dark-100 fw-bold lh-24px fs-6"
+                              >James Wilson
+                            </span>
+                            <p class="fs-14px lh-base text-gray-600 m-0">
+                              VP of Operations, TechCorp
+                            </p>
+                            <div class="d-flex align-items-center mt-1">
+                              <i
+                                class="fa-brands fa-linkedin text-primary me-1"
+                              ></i>
+                              <span class="fs-12px text-gray-500"
+                                >Verified on LinkedIn</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-md-flex flex-column d-none">
+                        <span
+                          class="info-span text-primary fs-26px lh-32px fw-bold text-gradient"
+                          >10X
+                        </span>
+                        <p
+                          class="m-0 text-gray-600 fs-12px fs-lg-14px lh-18px fw-500 align-self-end"
+                        >
+                          Insights
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-card bg-white rounded-4">
+                    <div
+                      class="d-flex justify-content-between align-items-lg-center mb-4 flex-column flex-md-row gap-2 gap-md-0"
+                    >
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="review-icon text-primary icon-56 rounded-4 d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left fs-4"></i>
+                        </div>
+                        <div>
+                          <div class="stars">
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star text-yellow-400 fs-14px"
+                            ></i>
+                          </div>
+                          <p class="fs-12px m-0 mt-1 text-gray-700">
+                            5.0 Rating
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="badge verified-badge text-primary">
+                          <i class="fa-solid fa-circle-check"></i>
+                          <span class="fs-14px">Verified</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="fs-18px lh-28px fs-lg-5 lh-lg-32px text-gray-700 mb-4"
+                    >
+                      "Their cloud migration service was flawless. Zero
+                      downtime, improved performance, and significant cost
+                      savings. The team's expertise is unmatched."
+                    </p>
+                    <div class="divider"></div>
+                    <div
+                      class="d-flex justify-content-center justify-content-md-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="d-flex align-items-center gap-3 flex-column flex-md-row"
+                        >
+                          <div class="position-relative">
+                            <div
+                              class="review-avatar rounded-circle overflow-hidden"
+                            >
+                              <img
+                                class="object-fit-cover"
+                                src="./images/avatar-4.jpg"
+                                alt="person-tell-about-us-1"
+                              />
+                            </div>
+                            <div
+                              class="verified-sign rounded-circle d-flex align-items-center justify-content-center position-absolute bottom-0 end-0 z-2"
+                            >
+                              <i
+                                class="fa-solid fa-check text-white fs-14px"
+                              ></i>
+                            </div>
+                          </div>
+
+                          <div>
+                            <span class="text-dark-100 fw-bold lh-24px fs-6"
+                              >Omar Wael
+                            </span>
+                            <p class="fs-14px lh-base text-gray-600 m-0">
+                              IT Director, GlobalTech
+                            </p>
+                            <div class="d-flex align-items-center mt-1">
+                              <i
+                                class="fa-brands fa-linkedin text-primary me-1"
+                              ></i>
+                              <span class="fs-12px text-gray-500"
+                                >Verified on LinkedIn</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-md-flex flex-column d-none">
+                        <span
+                          class="info-span text-primary fs-26px lh-32px fw-bold text-gradient"
+                          >0%
+                        </span>
+                        <p
+                          class="m-0 text-gray-600 fs-12px fs-lg-14px lh-18px fw-500 align-self-end"
+                        >
+                          Downtime
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="carousel-indicators position-relative">
                 <button
@@ -2060,238 +2720,649 @@
             <div
               class="badge section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
             >
-              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-circle-question"></i>
               <span>FAQ </span>
             </div>
-            <h2 class="fs-48px fw-900 lh-1 text-dark-100 mb-4">
+            <h2 class="fs-lg-48px fs-26px fw-900 lh-1 text-dark-100 mb-4">
               Frequently Asked
               <span class="text-gradient"> Questions</span>
             </h2>
             <p class="fs-18px lh-base text-gray-700 mb-5">
               Find answers to common questions about our services, process, and
-              how we <br />
-              can help transform your business.
+              how we can help transform your business.
             </p>
           </div>
-          <div
-            class="d-flex justify-content-between align-items-center gap-3 flex-column"
-          >
-            <div
-              id="text-oncollapse-1"
-              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
-            >
-              <button
-                id="btn-collapse-text"
-                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
-                onclick="CollapseText('text-oncollapse-1', '240px')"
-              >
-                <span class="text-dark-100 fw-600 fs-18px lh-28px">
-                  What services does Clarity offer?
-                </span>
+          <div class="questions">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button d-flex justify-content-between align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <span> What services does Clarity offer ? </span>
+                    <div
+                      class="accordion-icon d-flex justify-content-center align-items-center p-2 rounded-circle"
+                    >
+                      <i class="fa-solid fa-chevron-down text-primary"></i>
+                    </div>
+                  </button>
+                </h2>
                 <div
-                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
                 >
-                  <i
-                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
-                  ></i>
+                  <div class="accordion-body">
+                    <p class="text-muted">
+                      We offer a comprehensive range of digital services
+                      including web development, mobile applications, cloud
+                      solutions, AI & machine learning, digital marketing, and
+                      UI/UX design. Our team specializes in creating custom
+                      solutions tailored to your specific business needs, from
+                      initial concept through to deployment and ongoing support.
+                    </p>
+                  </div>
                 </div>
-              </button>
-
-              <p class="p-4 lh-24px m-0 text-gray-700">
-                We offer a comprehensive range of digital services including web
-                development, mobile applications, cloud solutions, AI & machine
-                learning, digital marketing, and UI/UX design. Our team
-                specializes in creating custom solutions tailored to your
-                specific business needs, from initial concept through to
-                deployment and ongoing support.
-              </p>
-            </div>
-            <div
-              id="text-oncollapse-2"
-              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
-            >
-              <button
-                id="btn-collapse-text"
-                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
-                onclick="CollapseText('text-oncollapse-2', '240px')"
-              >
-                <span class="text-dark-100 fw-600 fs-18px lh-28px">
-                  How long does typical project take?
-                </span>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button d-flex justify-content-between align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    <span> How long does a typical project take? </span>
+                    <div
+                      class="accordion-icon d-flex justify-content-center align-items-center p-2 rounded-circle"
+                    >
+                      <i class="fa-solid fa-chevron-down text-primary"></i>
+                    </div>
+                  </button>
+                </h2>
                 <div
-                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
                 >
-                  <i
-                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
-                  ></i>
+                  <div class="accordion-body">
+                    <p class="text-muted">
+                      Project timelines vary based on complexity and scope. A
+                      simple website might take 4-6 weeks, while a complex web
+                      application or mobile app could take 3-6 months. We
+                      provide detailed project timelines during our initial
+                      consultation and keep you updated throughout the
+                      development process with regular milestones and
+                      deliverables.
+                    </p>
+                  </div>
                 </div>
-              </button>
-
-              <p class="p-4 lh-24px m-0 text-gray-700">
-                Project timelines vary based on complexity and scope. A simple
-                website might take 4-6 weeks, while a complex web application or
-                mobile app could take 3-6 months. We provide detailed project
-                timelines during our initial consultation and keep you updated
-                throughout the development process with regular milestones and
-                deliverables.
-              </p>
-            </div>
-            <div
-              id="text-oncollapse-3"
-              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
-            >
-              <button
-                id="btn-collapse-text"
-                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
-                onclick="CollapseText('text-oncollapse-3', '340px')"
-              >
-                <span class="text-dark-100 fw-600 fs-18px lh-28px">
-                  What is your development process?
-                </span>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button d-flex justify-content-between align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    <span> What is your development process? </span>
+                    <div
+                      class="accordion-icon d-flex justify-content-center align-items-center p-2 rounded-circle"
+                    >
+                      <i class="fa-solid fa-chevron-down text-primary"></i>
+                    </div>
+                  </button>
+                </h2>
                 <div
-                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
                 >
-                  <i
-                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
-                  ></i>
+                  <div class="accordion-body">
+                    <p>
+                      We follow an agile development methodology that includes:
+                    </p>
+                    <ul class="list-unstyled">
+                      <li class="d-flex flex-row align-items-center mb-2 gap-2">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <span class="text-gray"
+                          ><strong>Discovery & Planning:</strong> Understanding
+                          your requirements and goals</span
+                        >
+                      </li>
+                      <li class="d-flex flex-row align-items-center mb-2 gap-2">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <span class="text-muted"
+                          ><strong>Design:</strong> Creating wireframes and
+                          visual designs</span
+                        >
+                      </li>
+                      <li class="d-flex flex-row align-items-center mb-2 gap-2">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <span class="text-muted"
+                          ><strong>Development:</strong> Building your solution
+                          with regular updates</span
+                        >
+                      </li>
+                      <li class="d-flex flex-row align-items-center mb-2 gap-2">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <span class="text-muted"
+                          ><strong>Testing:</strong> Rigorous QA and user
+                          testing</span
+                        >
+                      </li>
+                      <li class="d-flex flex-row align-items-center mb-2 gap-2">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <span class="text-muted"
+                          ><strong>Deployment:</strong> Launch and ongoing
+                          support</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </button>
-
-              <p class="p-4 lh-24px m-0 text-gray-700">
-                We follow an agile development methodology that includes:
-              </p>
-              <ul>
-                <li class="d-flex gap-2 align-items-center">
-                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
-                  <p class="m-0 lh-24px text-gray-700">
-                    <span class="fw-bold fs-6">Discovery & Planning: </span>
-                    Understanding your requirements and goals
-                  </p>
-                </li>
-                <li class="d-flex gap-2 align-items-center">
-                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
-                  <p class="m-0 lh-24px text-gray-700">
-                    <span class="fw-bold fs-6">Design: </span>
-                    Creating wireframes and visual designs
-                  </p>
-                </li>
-                <li class="d-flex gap-2 align-items-center">
-                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
-                  <p class="m-0 lh-24px text-gray-700">
-                    <span class="fw-bold fs-6">Development: </span>
-                    Building your solution with regular updates
-                  </p>
-                </li>
-                <li class="d-flex gap-2 align-items-center">
-                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
-                  <p class="m-0 lh-24px text-gray-700">
-                    <span class="fw-bold fs-6">Testing: </span>
-                    Rigorous QA and user testing
-                  </p>
-                </li>
-                <li class="d-flex gap-2 align-items-center">
-                  <i class="text-primary fa-solid fa-check px-4 py-2"></i>
-                  <p class="m-0 lh-24px text-gray-700">
-                    <span class="fw-bold fs-6">Deployment: </span>
-                    Launch and ongoing support
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div
-              id="text-oncollapse-4"
-              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
-            >
-              <button
-                id="btn-collapse-text"
-                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
-                onclick="CollapseText('text-oncollapse-4', '240px')"
-              >
-                <span class="text-dark-100 fw-600 fs-18px lh-28px">
-                  Do you provide ongoing support and maintenance?
-                </span>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button d-flex justify-content-between align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    <span>
+                      Do you provide ongoing support and maintenance?
+                    </span>
+                    <div
+                      class="accordion-icon d-flex justify-content-center align-items-center p-2 rounded-circle"
+                    >
+                      <i class="fa-solid fa-chevron-down text-primary"></i>
+                    </div>
+                  </button>
+                </h2>
                 <div
-                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
                 >
-                  <i
-                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
-                  ></i>
+                  <div class="accordion-body">
+                    <p class="text-muted">
+                      Yes! We offer comprehensive support and maintenance
+                      packages to ensure your solution continues to perform
+                      optimally. This includes bug fixes, security updates,
+                      performance optimization, feature enhancements, and
+                      technical support. We can customize a maintenance plan
+                      that fits your specific needs and budget.
+                    </p>
+                  </div>
                 </div>
-              </button>
-
-              <p class="p-4 lh-24px m-0 text-gray-700">
-                Yes! We offer comprehensive support and maintenance packages to
-                ensure your solution continues to perform optimally. This
-                includes bug fixes, security updates, performance optimization,
-                feature enhancements, and technical support. We can customize a
-                maintenance plan that fits your specific needs and budget.
-              </p>
-            </div>
-            <div
-              id="text-oncollapse-5"
-              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
-            >
-              <button
-                id="btn-collapse-text"
-                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
-                onclick="CollapseText('text-oncollapse-5', '240px')"
-              >
-                <span class="text-dark-100 fw-600 fs-18px lh-28px">
-                  What technologies do you work with?
-                </span>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button d-flex justify-content-between align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  >
+                    <span> What technologies do you work with? </span>
+                    <div
+                      class="accordion-icon d-flex justify-content-center align-items-center p-2 rounded-circle"
+                    >
+                      <i class="fa-solid fa-chevron-down text-primary"></i>
+                    </div>
+                  </button>
+                </h2>
                 <div
-                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
                 >
-                  <i
-                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
-                  ></i>
+                  <div class="accordion-body">
+                    <p class="text-muted">
+                      We work with cutting-edge technologies across the full
+                      stack. For frontend, we use React, Vue.js, Angular, and
+                      Next.js. Our backend expertise includes Node.js, Python,
+                      Golang, and Java. We're proficient in cloud platforms like
+                      AWS, Azure, and Google Cloud, and work with both SQL and
+                      NoSQL databases. We always choose the best technology
+                      stack for your specific project requirements.
+                    </p>
+                  </div>
                 </div>
-              </button>
-
-              <p class="p-4 lh-24px m-0 text-gray-700">
-                We work with cutting-edge technologies across the full stack.
-                For frontend, we use React, Vue.js, Angular, and Next.js. Our
-                backend expertise includes Node.js, Python, Golang, and Java.
-                We're proficient in cloud platforms like AWS, Azure, and Google
-                Cloud, and work with both SQL and NoSQL databases. We always
-                choose the best technology stack for your specific project
-                requirements.
-              </p>
-            </div>
-            <div
-              id="text-oncollapse-6"
-              class="text-oncollapse border-gray-200 border border-1 bg-white rounded-4 w-100 overflow-hidden"
-            >
-              <button
-                id="btn-collapse-text"
-                class="d-flex justify-content-between align-items-center p-4 border-0 w-100 bg-white"
-                onclick="CollapseText('text-oncollapse-6', '240px')"
-              >
-                <span class="text-dark-100 fw-600 fs-18px lh-28px">
-                  How do you ensure project security and data privacy?
-                </span>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button d-flex justify-content-between align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapseSix"
+                  >
+                    <span>
+                      How do you ensure project security and data privacy?
+                    </span>
+                    <div
+                      class="accordion-icon d-flex justify-content-center align-items-center p-2 rounded-circle"
+                    >
+                      <i class="fa-solid fa-chevron-down text-primary"></i>
+                    </div>
+                  </button>
+                </h2>
                 <div
-                  class="rotate-btn rounded-circle icon-40 d-flex align-items-center justify-content-center"
+                  id="collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
                 >
-                  <i
-                    class="rotate-btn-arrow fa-solid fa-chevron-down text-primary"
-                  ></i>
+                  <div class="accordion-body">
+                    <p class="text-muted">
+                      Security is our top priority. We implement
+                      industry-standard security practices including encryption,
+                      secure authentication, regular security audits, and
+                      compliance with data protection regulations (GDPR, HIPAA,
+                      etc.). All our developers sign NDAs, and we use secure
+                      development practices throughout the entire project
+                      lifecycle. We also provide security documentation and
+                      training for your team.
+                    </p>
+                  </div>
                 </div>
-              </button>
-
-              <p class="p-4 lh-24px m-0 text-gray-700">
-                Security is our top priority. We implement industry-standard
-                security practices including encryption, secure authentication,
-                regular security audits, and compliance with data protection
-                regulations (GDPR, HIPAA, etc.). All our developers sign NDAs,
-                and we use secure development practices throughout the entire
-                project lifecycle. We also provide security documentation and
-                training for your team.
-              </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <section id="contact">
+        <div class="container">
+          <div class="section-header text-center">
+            <div
+              class="badge section-badge text-primary rounded-pill p-2 fs-14px fw-medium px-3 mb-4"
+            >
+              <i class="fa-solid fa-rocket"></i>
+              <span>Let's Start Your Journey </span>
+            </div>
+            <h2 class="fs-lg-72px fs-42px fw-900 lh-1 text-dark-100 mb-4">
+              Ready to
+
+              <span class="text-gradient"> Transform?</span>
+            </h2>
+            <p class="fs-24px lh-36px lh-base text-gray-700 mb-5">
+              Take the first step towards digital excellence. Our experts are
+              ready to turn your vision into reality.
+            </p>
+          </div>
+
+          <div
+            class="main d-flex align-items-start overflow-hidden flex-column flex-lg-row"
+          >
+            <div class="contact-us-form bg-white border border-gray-100 w-100">
+              <h3 class="text-dark-100 fw-bold">Get Your Free Consultation</h3>
+              <p class="text-gray-700 fs-18px lh-28px">
+                Fill out the form and we'll get back to you within 24 hours with
+                a personalized proposal.
+              </p>
+              <div>
+                <form>
+                  <div
+                    class="d-flex gap-4 align-items-center justify-content-between"
+                  >
+                    <div class="mb-3 w-100">
+                      <label
+                        for="firstname"
+                        class="form-label text-gray-800 fw-bold fs-14px"
+                        >First Name *</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control rounded-4 bg-gray-100 w-100"
+                        id="first-name"
+                        placeholder="John"
+                      />
+                    </div>
+                    <div class="mb-3 w-100">
+                      <label
+                        for="last-name"
+                        class="form-label text-gray-800 fw-bold fs-14px"
+                        >Last Name *</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control rounded-4 bg-gray-100"
+                        id="last-name"
+                        placeholder="Doe"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex gap-4 align-items-center justify-content-between"
+                  >
+                    <div class="mb-3 w-100">
+                      <label
+                        for="email"
+                        class="form-label text-gray-800 fw-bold fs-14px"
+                        >Email Address *
+                      </label>
+                      <input
+                        type="email"
+                        class="form-control rounded-4 bg-gray-100"
+                        id="email"
+                        placeholder="John@company.com"
+                      />
+                    </div>
+                    <div class="mb-3 w-100">
+                      <label
+                        for="company"
+                        class="form-label text-gray-800 fw-bold fs-14px"
+                        >Company</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control rounded-4 bg-gray-100"
+                        id="company"
+                        placeholder="Your Company Name"
+                      />
+                    </div>
+                  </div>
+                  <label
+                    for="primary-interest"
+                    class="form-label text-gray-800 fw-bold fs-14px mt-3"
+                    >Primary Interest</label
+                  >
+                  <select
+                    id="primary-interest"
+                    class="form-select rounded-4 bg-gray-100"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Choose your focus area</option>
+                    <option value="web">Web Development & Design</option>
+                    <option value="mobile">Mobile App Development</option>
+                    <option value="cloud">Cloud & Infrastructure</option>
+                    <option value="ai">Al & Machine Learning</option>
+                    <option value="digial">Digital Marketing & SEO</option>
+                    <option value="tansformation">
+                      Complete Digital Transformation
+                    </option>
+                  </select>
+                  <label
+                    for="time-line"
+                    class="form-label text-gray-800 fw-bold fs-14px mt-3"
+                    >Timeline</label
+                  >
+                  <select
+                    id="time-line"
+                    class="form-select rounded-4 bg-gray-100"
+                    aria-label="Default select example"
+                  >
+                    <option selected>When do you want to start?</option>
+                    <option value="immediately">Immediately</option>
+                    <option value="1month">Within 1 month</option>
+                    <option value="3months">Within 3 months</option>
+                    <option value="6months">Within 6 months</option>
+                    <option value="options">Just exploring options</option>
+                  </select>
+                  <label
+                    for="project-budget"
+                    class="form-label text-gray-800 fw-bold fs-14px mt-3"
+                    >Project Budget Range</label
+                  >
+                  <div
+                    class="d-flex align-items-center justify-content-between flex-md-row flex-column gap-3"
+                  >
+                    <div class="w-100">
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options"
+                        id="budget-1"
+                        value="25k-50k"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        for="budget-1"
+                        class="w-100 d-flex flex-column align-items-center justify-content-center p-3 border border-2 border-gray-200 w-100 rounded-4"
+                      >
+                        <p class="m-0 fw-600">$25K-$50K</p>
+                        <span class="text-gray-500 fs-14px lh-base"
+                          >Growth</span
+                        >
+                      </label>
+                    </div>
+                    <div class="w-100">
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options"
+                        id="budget-2"
+                        value="50k-100k"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        for="budget-2"
+                        class="w-100 d-flex flex-column align-items-center justify-content-center p-3 border border-2 border-gray-200 w-100 rounded-4"
+                      >
+                        <p class="m-0 fw-600">$50K - $100K</p>
+                        <span class="text-gray-500 fs-14px lh-base">Scale</span>
+                      </label>
+                    </div>
+                    <div class="w-100">
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options"
+                        id="budget-3"
+                        value="100k"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label
+                        for="budget-3"
+                        class="w-100 d-flex flex-column align-items-center justify-content-center p-3 border border-2 border-gray-200 w-100 rounded-4"
+                      >
+                        <p class="m-0 fw-600">$100K+</p>
+                        <span class="text-gray-500 fs-14px lh-base"
+                          >Enterprise</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                  <label
+                    for="tell-us-about-your-project"
+                    class="form-label text-gray-800 fw-bold fs-14px mt-3"
+                    >Tell us about your project
+                  </label>
+                  <textarea
+                    rows="5"
+                    class="form-control rounded-4 bg-gray-100"
+                    name="tellUsAboutYourProject"
+                    id="tell-us-about-your-project"
+                    placeholder="Describe your project goals, challenges, and what success looks like for you..."
+                  ></textarea>
+
+                  <div class="mt-5 d-flex align-items-start gap-2">
+                    <input
+                      type="checkbox"
+                      name="agreePolicy"
+                      id="agree-policy"
+                    />
+                    <label for="agree-policy" class="text-gray-600 fs-14px"
+                      >I agree to receive communications and accept the
+                      <span class="text-primary"> Privacy Policy</span>
+                    </label>
+                  </div>
+                  <button
+                    class="w-100 mt-5 text-white fw-bold fs-18px border-0 rounded-4"
+                    onclick="window.alert('Thank you for your message! We\'ll get back to you soon.')"
+                  >
+                    Get My Free Consultation
+                    <i class="fa-solid"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="about-us-info align-self-stretch rounded-end-0">
+              <div>
+                <h4 class="text-white fs-24px lh-32px fw-bold">
+                  Why Choose Clarity?
+                </h4>
+                <div>
+                  <div class="feature d-flex align-items-start gap-3">
+                    <div
+                      class="icon-feature d-flex align-items-center rounded-3 justify-content-center"
+                    >
+                      <i class="text-white fa-solid fa-clock"></i>
+                    </div>
+                    <div class="info-feature">
+                      <h5 class="fw-600 fs-6 lh-24px text-white">
+                        24-Hour Response
+                      </h5>
+                      <p class="text-feature fs-14px lh-base m-0">
+                        Quick turnaround on all inquiries with detailed project
+                        analysis
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feature d-flex align-items-start gap-3">
+                    <div
+                      class="icon-feature d-flex align-items-center rounded-3 justify-content-center"
+                    >
+                      <i class="text-white fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="info-feature">
+                      <h5 class="fw-600 fs-6 lh-24px text-white">
+                        100% Satisfaction
+                      </h5>
+                      <p class="text-feature fs-14px lh-base m-0">
+                        Money-back guarantee if you're not completely satisfied
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feature d-flex align-items-start gap-3">
+                    <div
+                      class="icon-feature d-flex align-items-center rounded-3 justify-content-center"
+                    >
+                      <i class="text-white fa-solid fa-users"></i>
+                    </div>
+                    <div class="info-feature">
+                      <h5 class="fw-600 fs-6 lh-24px text-white">
+                        Expert Team
+                      </h5>
+                      <p class="text-feature fs-14px lh-base m-0">
+                        150+ certified professionals with 8+ years experience
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="direct-contact border-top">
+                  <h5 class="fs-6 lh-24px fw-600 text-white">Direct Contact</h5>
+                  <div>
+                    <div class="text-white mb-2">
+                      <i class="fa-solid fa-phone"></i>
+                      <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="text-white mb-2">
+                      <i class="fa-solid fa-envelope"></i>
+                      <span>hello@clarity.com </span>
+                    </div>
+                    <div class="text-white mb-2">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>San Francisco, CA </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer" class="border-top">
+        <div class="container">
+          <div class="row py-5 align-items-center">
+            <div class="col-lg-6">
+              <div class="logo d-flex gap-2 align-items-center mb-3">
+                <div
+                  class="logo-icon icon-35 align-items-center d-flex justify-content-center rounded-3"
+                >
+                  <i class="fa-solid fa-cube text-white"></i>
+                </div>
+                <span class="fs-5 lh-28px fw-bold">Clarity</span>
+              </div>
+              <p class="fs-14px lh-base text-gray-600 m-0">
+                Transforming businesses through innovative digital solutions and
+                cutting-edge technology.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <ul
+                class="d-flex align-items-center gap-3 justify-content-lg-end mt-3 mt-lg-0"
+              >
+                <li>
+                  <a
+                    href="#linkedin"
+                    class="icon-35 rounded-3 d-flex justify-content-center align-items-center bg-gray-100"
+                  >
+                    <i class="fa-brands fa-linkedin text-gray-600"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#twitter"
+                    class="icon-35 rounded-3 d-flex justify-content-center align-items-center bg-gray-100"
+                  >
+                    <i class="fa-brands fa-twitter text-gray-600"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#github"
+                    class="icon-35 rounded-3 d-flex justify-content-center align-items-center bg-gray-100"
+                  >
+                    <i class="fa-brands fa-github text-gray-600"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#dribble"
+                    class="icon-35 rounded-3 d-flex justify-content-center align-items-center bg-gray-100"
+                  >
+                    <i class="fa-brands fa-dribbble text-gray-600"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="border-top py-5 d-flex flex-column gap-2 align-items-center"
+          >
+            <p class="m-0 fs-14px lh-base text-gray-600">
+              © 2025 Clarity. All rights reserved.
+            </p>
+            <div class="">
+              <p class="m-0 fs-12px lh-sm text-gray-500">
+                Made with <i class="fa-solid fa-heart text-red-600"></i> for
+                amazing experiences
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
 
     <script src="./js/bootstrap.bundle.min.js"></script>

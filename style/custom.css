@@ -210,6 +210,9 @@
 .text-gray-800 {
   color: #1f2937;
 }
+.text-gray-900 {
+  color: #111827 !important;
+}
 
 .bg-purple-50 {
   background-color: #faf5ff;
@@ -226,7 +229,7 @@
 }
 
 .bg-gray-50 {
-  background-color: #f9fafb; 
+  background-color: #f9fafb;
 }
 .bg-gray-100 {
   background-color: #f3f4f6;
@@ -387,6 +390,9 @@
 .fs-60px {
   font-size: 60px !important;
 }
+.fs-72px {
+  font-size: 72px !important;
+}
 
 .fw-400 {
   font-weight: 400;
@@ -465,7 +471,10 @@
   height: 32px;
   width: 32px;
 }
-
+.icon-35 {
+  width: 35px;
+  height: 35px;
+}
 .icon-40 {
   height: 40px;
   width: 40px;
@@ -635,8 +644,15 @@
   .fs-md-45px {
     font-size: 45px !important;
   }
+  .fs-md-48px {
+    font-size: 45px !important;
+  }
+
   .fs-md-60px {
     font-size: 60px !important;
+  }
+  .fs-md-72px {
+    font-size: 72px !important;
   }
 
   .lh-md-18px {
@@ -746,8 +762,14 @@
   .fs-lg-45px {
     font-size: 45px !important;
   }
+  .fs-lg-48px {
+    font-size: 45px !important;
+  }
   .fs-lg-60px {
     font-size: 60px !important;
+  }
+  .fs-lg-72px {
+    font-size: 72px !important;
   }
   .fs-lg-1 {
     font-size: 2.5rem !important;
@@ -877,6 +899,9 @@
   .w-lg-100 {
     width: 100% !important;
   }
+  .w-lg-auto {
+    width: auto !important;
+  }
   .border-lg-top-0 {
     border-top: 0px !important;
   }
@@ -901,8 +926,14 @@
   .fs-xl-45px {
     font-size: 45px;
   }
+  .fs-xl-48px {
+    font-size: 45px !important;
+  }
   .fs-xl-60px {
     font-size: 60px;
+  }
+  .fs-xl-72px {
+    font-size: 72px;
   }
   .fs-xl-1 {
     font-size: 2.5rem;

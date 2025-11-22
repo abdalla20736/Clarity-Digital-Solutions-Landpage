@@ -1,9 +1,10 @@
 function CollapseText(divId, maxHeight) {
   const el = document.getElementById(divId);
-  const btn = document.getElementById("btn-collapse-text");
+
+  const text = el.querySelector("p");
   const div = el.querySelector("div");
   const icon = div.querySelector("i");
-  const currentHeight = parseInt(getComputedStyle(el).height);
+  const currentHeight = parseInt(getComputedStyle(text).height);
 
   if (currentHeight <= 88) {
     el.style.height = maxHeight;
