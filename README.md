@@ -1,7 +1,7 @@
 # Clarity - Digital Solutions Platform
 
 A modern, clean, and responsive web application focused on delivering a seamless user experience.  
-Live Demo → **[https://clarity-seven-drab.vercel.app](https://abdalla20736.github.io/Clarity-Digital-Solutions-Landpage/)**
+Live Demo → **[https://abdalla20736.github.io/Clarity-Digital-Solutions-Landpage](https://abdalla20736.github.io/Clarity-Digital-Solutions-Landpage/)**
 
 ---
 
